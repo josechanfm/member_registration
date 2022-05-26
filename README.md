@@ -1,6 +1,6 @@
 # member_registration
 
-##ion_auth.php
+## ion_auth.php
 
 /* user tables */
 $config['tables']['users']           = 'users';

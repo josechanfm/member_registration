@@ -23,6 +23,7 @@ $config['manual_activation']          = FALSE;               // Manual Activatio
 
 
 /*Email Option*/
+
 $config['use_ci_email'] = true; // Send Email using the builtin CI email class, if false it will return the code and the identity
 $config['email_config'] = array(
 	'mailtype' => 'html',
@@ -30,5 +31,6 @@ $config['email_config'] = array(
 
 
 /* Email Templates */
+
 $config['email_templates'] = 'member/email/auth/';
 

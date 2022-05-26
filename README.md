@@ -1,8 +1,8 @@
 # member_registration
 
-ion_auth.php
+##ion_auth.php
 
-/*user tables*/
+/* user tables */
 $config['tables']['users']           = 'users';
 $config['tables']['groups']          = 'groups';
 $config['tables']['users_groups']    = 'users_groups';
@@ -10,7 +10,7 @@ $config['tables']['login_attempts']  = 'login_attempts';
 
 
 
-/*Authentication options.*/
+/* Authentication options. */
 
 $config['site_title']                 = "The WSU Scholar Network"; 
 $config['admin_email']                = "mailer.scholar@scholar.thewsu.org"; 
@@ -24,7 +24,7 @@ $config['manual_activation']          = FALSE;
 
 
 
-/*Email Option*/
+/* Email Option */
 
 $config['use_ci_email'] = true;
 $config['email_config'] = array(
